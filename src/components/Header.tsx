@@ -1,4 +1,4 @@
-import { Truck, Menu, X } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
 
 export const Header = () => {
@@ -9,9 +9,12 @@ export const Header = () => {
     return (
         <header className="fixed top-0 w-full bg-white shadow-sm z-50 py-4">
             <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
-                <div className="flex items-center gap-2 text-primary font-bold text-xl">
-                    <Truck className="h-8 w-8" />
-                    <span>Campagnaro Truck Center</span>
+                <div className="flex items-center">
+                    <img
+                        src="https://cdn.dooca.store/1814/files/logo-svg-9.png?v=1765290456"
+                        alt="Campagnaro Truck Center"
+                        className="h-10 md:h-12 w-auto"
+                    />
                 </div>
 
                 {/* Desktop Nav */}

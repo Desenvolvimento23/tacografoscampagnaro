@@ -1,4 +1,4 @@
-import { ShieldCheck } from 'lucide-react'
+
 
 export const Hero = () => {
     return (
@@ -16,7 +16,7 @@ export const Hero = () => {
             <div className="relative z-10 max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
                 <div className="flex-1 text-left">
                     <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight text-white">
-                        Aferição de Tacógrafo Válida: Garanta a Conformidade e a Segurança.
+                        Aferição de Tacógrafo: Garanta a segurança sem se preocupar com multas!
                     </h1>
                     <p className="text-lg md:text-xl text-gray-200 mb-8 font-light">
                         Posto de Ensaio Autorizado pelo INMETRO. Evite multas e retenção do veículo com nossa experiente equipe.
@@ -32,9 +32,12 @@ export const Hero = () => {
                 </div>
 
                 <div className="flex-1 flex justify-center">
-                    <div className="w-80 h-80 border-4 border-dashed border-white/30 rounded-full flex flex-col items-center justify-center text-center p-6 bg-white/10 backdrop-blur-sm">
-                        <ShieldCheck size={80} className="mb-4 text-accent" />
-                        <span className="text-2xl font-bold">Posto Autorizado INMETRO</span>
+                    <div className="w-80 h-80 md:w-[500px] md:h-[500px] rounded-full overflow-hidden border-4 border-white/30 shadow-2xl bg-white flex items-center justify-center">
+                        <img
+                            src="https://sostruck.com.br/wp-content/uploads/2019/10/7metades-transportes-tacografo.jpg"
+                            alt="Aferição de Tacógrafo"
+                            className="w-full h-full object-cover"
+                        />
                     </div>
                 </div>
             </div>
