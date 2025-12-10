@@ -21,7 +21,7 @@ export const WhyAferir = () => {
                         <Bus className="mx-auto h-12 w-12 text-primary mb-6" />
                         <h3 className="text-xl font-bold mb-4 text-primary">Veículos Obrigatórios</h3>
                         <p className="text-gray-600">
-                            Passageiros (+10 lugares), escolar, carga (PBT > 4.536 kg) e veículos com CMT >= 19t.
+                            Passageiros (+10 lugares), escolar, carga (PBT &gt; 4.536 kg) e veículos com CMT &gt;= 19t.
                         </p>
                     </div>
 
