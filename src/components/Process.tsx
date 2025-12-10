@@ -25,7 +25,7 @@ export const Process = () => {
     return (
         <section id="como-funciona" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-4">
-                <h2 className="text-3xl font-bold text-center text-primary mb-12 relative pb-4 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-16 after:h-1 after:bg-accent after:rounded">
+                <h2 className="text-3xl font-bold text-center text-black mb-12 relative pb-4 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-16 after:h-1 after:bg-accent after:rounded">
                     Como funciona o processo?
                 </h2>
 
@@ -35,7 +35,7 @@ export const Process = () => {
                             <span className="absolute top-0 right-4 text-5xl font-bold text-gray-100 -z-10 select-none">
                                 {step.num}
                             </span>
-                            <h3 className="text-lg font-bold text-primary mb-2 relative z-10">{step.title}</h3>
+                            <h3 className="text-lg font-bold text-black mb-2 relative z-10">{step.title}</h3>
                             <p className="text-gray-600 text-sm">{step.desc}</p>
                         </div>
                     ))}

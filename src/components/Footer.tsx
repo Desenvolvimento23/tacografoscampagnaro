@@ -6,7 +6,7 @@ export const Footer = () => {
             <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
 
                 <div>
-                    <h3 className="text-2xl text-white font-bold mb-6">Campagnaro Truck Center</h3>
+                    <h4 className="text-xl font-bold text-black mb-4">Campagnaro Truck Center</h4>
                     <div className="space-y-4">
                         <p className="flex items-center gap-3">
                             <MapPin className="text-accent h-5 w-5" />
