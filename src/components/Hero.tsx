@@ -4,7 +4,7 @@ export const Hero = () => {
     return (
         <section className="relative pt-32 pb-20 bg-primary text-white overflow-hidden md:h-screen md:min-h-[600px] md:max-h-[900px] flex items-center">
             {/* Background Overlay */}
-            <div className="absolute inset-0 z-0 bg-blue-900/90">
+            <div className="absolute inset-0 z-0 bg-gradient-to-t from-black via-gray-800 to-white opacity-90">
                 {/* Ideally replace with real image via 'backgroundImage' style */}
                 <img
                     src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
@@ -14,7 +14,7 @@ export const Hero = () => {
             </div>
 
             <div className="relative z-10 max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12 w-full">
-                <div className="flex-1 text-left">
+                <div className="flex-1 flex flex-col items-center text-center">
                     <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight text-white">
                         Aferição de Tacógrafo: Garanta a segurança sem se preocupar com multas!
                     </h1>
