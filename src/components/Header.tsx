@@ -25,7 +25,7 @@ export const Header = () => {
                     <a
                         href="https://wa.me/555432327422"
                         target="_blank"
-                        className="bg-accent hover:bg-accent-hover text-white px-6 py-2 rounded-lg font-medium transition-colors flex items-center gap-2 text-sm md:text-base whitespace-nowrap"
+                        className="bg-accent hover:bg-accent-hover text-white px-6 py-2 rounded-lg font-medium transition-colors hidden md:flex items-center gap-2 text-sm md:text-base whitespace-nowrap"
                     >
                         Agendar (54) 3232-7422
                     </a>
