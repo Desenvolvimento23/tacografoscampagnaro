@@ -1,6 +1,7 @@
 
 
 import campagnaroBg from '../assets/campagnaro.png';
+import tacografoVideo from '../assets/tacografo.MOV';
 
 export const Hero = () => {
     return (
@@ -35,9 +36,12 @@ export const Hero = () => {
 
                 <div className="flex-1 flex justify-center pt-8 md:pt-0">
                     <div className="w-80 h-80 md:w-[500px] md:h-[500px] rounded-full overflow-hidden border-4 border-white/30 shadow-2xl bg-white flex items-center justify-center transform md:translate-y-8">
-                        <img
-                            src="https://sostruck.com.br/wp-content/uploads/2019/10/7metades-transportes-tacografo.jpg"
-                            alt="Aferição de Tacógrafo"
+                        <video
+                            src={tacografoVideo}
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
                             className="w-full h-full object-cover"
                         />
                     </div>
