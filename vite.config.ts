@@ -4,7 +4,7 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    // base: '/tacografoscampagnaro/',
+    base: '/tacografoscampagnaro/',
     assetsInclude: ['**/*.MOV'],
     plugins: [react()],
     resolve: {
