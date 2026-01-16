@@ -2,7 +2,7 @@ import { Award, Users, Timer, MessageCircle } from 'lucide-react'
 
 export const Differentials = () => {
     return (
-        <section id="diferenciais" className="py-20 bg-black text-white">
+        <section id="diferenciais" className="py-20 bg-gradient-to-t from-black to-gray-900 text-white">
             <div className="max-w-7xl mx-auto px-4">
                 <h2 className="text-3xl font-bold text-center mb-16 relative pb-4 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-16 after:h-1 after:bg-white after:rounded">
                     A Campagnaro é a sua Escolha Certa
