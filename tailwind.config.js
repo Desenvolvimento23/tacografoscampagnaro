@@ -8,15 +8,15 @@ export default {
         extend: {
             colors: {
                 primary: {
-                    DEFAULT: '#C02A25', // Vermelho Campagnaro
-                    hover: '#99221d',
+                    DEFAULT: '#C62828', // Vermelho Campagnaro
+                    hover: '#A42020',
                 },
-                secondary: '#000000',
+                secondary: '#413F3F',
                 accent: {
                     DEFAULT: '#25d366', // Verde WhatsApp
-                    hover: '#128c7e',
+                    hover: '#1ebe5d',
                 },
-                surface: '#f4f7f6',
+                surface: '#ffffff',
             },
             fontFamily: {
                 sans: ['Inter', 'sans-serif'],

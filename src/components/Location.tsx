@@ -2,7 +2,7 @@ export const Location = () => {
     return (
         <section className="py-20 bg-surface">
             <div className="max-w-7xl mx-auto px-4">
-                <h2 className="text-3xl font-bold text-center text-primary mb-12 relative pb-4 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-16 after:h-1 after:bg-accent after:rounded">
+                <h2 className="text-3xl font-bold text-center text-primary mb-12 relative pb-4 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-16 after:h-1 after:bg-primary after:rounded">
                     Onde Estamos
                 </h2>
 

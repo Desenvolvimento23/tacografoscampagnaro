@@ -5,14 +5,14 @@ import tacografoVideo from '../assets/tacografo.MOV';
 
 export const Hero = () => {
     return (
-        <section className="relative pt-32 pb-20 bg-primary text-white overflow-hidden md:h-screen md:min-h-[600px] md:max-h-[900px] flex items-center">
+        <section className="relative pt-32 pb-20 bg-secondary text-white overflow-hidden md:h-screen md:min-h-[600px] md:max-h-[900px] flex items-center">
             {/* Background Overlay */}
-            <div className="absolute inset-0 z-0 bg-gradient-to-t from-black via-gray-800 to-white opacity-90">
+            <div className="absolute inset-0 z-0 bg-secondary">
                 {/* Ideally replace with real image via 'backgroundImage' style */}
                 <img
                     src={campagnaroBg}
                     alt="Oficina de caminhões"
-                    className="w-full h-full object-cover opacity-20 mix-blend-overlay"
+                    className="w-full h-full object-cover opacity-35 blur-md scale-110"
                 />
             </div>
 
@@ -21,7 +21,7 @@ export const Hero = () => {
                     <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight text-white">
                         Aferição de Tacógrafo: Garanta a segurança sem se preocupar com multas!
                     </h1>
-                    <p className="text-lg md:text-xl text-gray-200 mb-8 font-light">
+                    <p className="text-lg md:text-xl text-white/85 mb-8 font-light">
                         Posto de Ensaio Autorizado pelo INMETRO. Evite multas e retenção do veículo com nossa experiente equipe.
                     </p>
                     <a
@@ -35,7 +35,7 @@ export const Hero = () => {
                 </div>
 
                 <div className="flex-1 flex justify-center pt-8 md:pt-0">
-                    <div className="w-80 h-80 md:w-[500px] md:h-[500px] rounded-full overflow-hidden border-4 border-white/30 shadow-2xl bg-white flex items-center justify-center transform md:translate-y-8">
+                    <div className="w-80 h-80 md:w-[500px] md:h-[500px] rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl bg-white flex items-center justify-center transform md:translate-y-8">
                         <video
                             src={tacografoVideo}
                             autoPlay

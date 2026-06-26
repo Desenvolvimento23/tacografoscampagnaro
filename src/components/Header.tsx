@@ -16,7 +16,7 @@ export const Header = () => {
 
                 {/* Nav - Visible on all devices now */}
                 <nav className="flex flex-col md:flex-row items-center gap-4 md:gap-8 w-full md:w-auto">
-                    <ul className="flex flex-wrap justify-center gap-4 md:gap-6 font-medium text-gray-700 text-sm md:text-base">
+                    <ul className="flex flex-wrap justify-center gap-4 md:gap-6 font-medium text-secondary text-sm md:text-base">
                         <li><a href="#obrigatoriedade" className="hover:text-primary transition-colors">Obrigatoriedade</a></li>
                         <li><a href="#como-funciona" className="hover:text-primary transition-colors">Como Funciona</a></li>
                         <li><a href="#diferenciais" className="hover:text-primary transition-colors">Diferenciais</a></li>
