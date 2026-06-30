@@ -8,10 +8,10 @@ export default {
         extend: {
             colors: {
                 primary: {
-                    DEFAULT: '#C62828', // Vermelho Campagnaro
-                    hover: '#A42020',
+                    DEFAULT: '#C62828',
+                    hover: '#C62828',
                 },
-                secondary: '#413F3F',
+                secondary: '#000000',
                 accent: {
                     DEFAULT: '#25d366', // Verde WhatsApp
                     hover: '#1ebe5d',

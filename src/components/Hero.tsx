@@ -5,37 +5,41 @@ import tacografoVideo from '../assets/tacografo.MOV';
 
 export const Hero = () => {
     return (
-        <section className="relative pt-32 pb-20 bg-secondary text-white overflow-hidden md:h-screen md:min-h-[600px] md:max-h-[900px] flex items-center">
+        <section className="relative pt-24 pb-12 md:pt-28 md:pb-16 bg-secondary text-white overflow-hidden">
             {/* Background Overlay */}
             <div className="absolute inset-0 z-0 bg-secondary">
                 {/* Ideally replace with real image via 'backgroundImage' style */}
                 <img
                     src={campagnaroBg}
                     alt="Oficina de caminhões"
-                    className="w-full h-full object-cover opacity-35 blur-md scale-110"
+                    className="w-full h-full object-cover opacity-30 blur-md scale-105"
                 />
             </div>
 
-            <div className="relative z-10 max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12 w-full">
-                <div className="flex-1 flex flex-col items-center text-center">
-                    <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight text-white">
+            <div className="relative z-10 max-w-6xl mx-auto px-4 grid md:grid-cols-[1.05fr_0.95fr] items-center gap-8 lg:gap-12">
+                <div className="flex flex-col items-center text-center md:items-start md:text-left">
+                    <span className="text-primary text-xs font-bold uppercase mb-3">
+                        Posto autorizado pelo INMETRO
+                    </span>
+                    <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight text-white max-w-2xl">
                         Aferição de Tacógrafo: Garanta a segurança sem se preocupar com multas!
                     </h1>
-                    <p className="text-lg md:text-xl text-white/85 mb-8 font-light">
+                    <p className="text-sm md:text-base text-white/80 mb-6 max-w-xl">
                         Posto de Ensaio Autorizado pelo INMETRO. Evite multas e retenção do veículo com nossa experiente equipe.
                     </p>
                     <a
                         href="https://wa.me/555432327422"
                         target="_blank"
-                        className="inline-block bg-accent hover:bg-accent-hover text-white text-lg font-semibold px-8 py-4 rounded-lg transition-transform hover:-translate-y-1 shadow-lg"
+                        rel="noreferrer"
+                        className="inline-block bg-accent hover:bg-accent-hover text-white text-sm font-semibold px-5 py-3 rounded-md transition-colors"
                     >
                         Agende sua Verificação Agora
-                        <span className="block text-sm font-normal mt-1 opacity-90">(WhatsApp: 54 3232-7422)</span>
+                        <span className="block text-xs font-normal mt-0.5 opacity-90">WhatsApp: 54 3232-7422</span>
                     </a>
                 </div>
 
-                <div className="flex-1 flex justify-center pt-8 md:pt-0">
-                    <div className="w-80 h-80 md:w-[500px] md:h-[500px] rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl bg-white flex items-center justify-center transform md:translate-y-8">
+                <div className="flex justify-center">
+                    <div className="w-full max-w-[460px] aspect-[4/3] rounded-lg overflow-hidden border border-white/20 bg-black">
                         <video
                             src={tacografoVideo}
                             autoPlay
