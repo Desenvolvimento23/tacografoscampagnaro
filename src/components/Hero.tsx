@@ -1,7 +1,7 @@
 
 
 import campagnaroBg from '../assets/campagnaro.png';
-import tacografoVideo from '../assets/tacografo.MOV';
+import tacografoVideo from '../assets/tacografo.mp4';
 
 export const Hero = () => {
     return (
@@ -42,10 +42,13 @@ export const Hero = () => {
                     <div className="w-full max-w-[460px] aspect-[4/3] rounded-lg overflow-hidden border border-white/20 bg-black">
                         <video
                             src={tacografoVideo}
+                            poster={campagnaroBg}
                             autoPlay
                             loop
                             muted
                             playsInline
+                            preload="metadata"
+                            aria-label="Demonstração do serviço de aferição de tacógrafo"
                             className="w-full h-full object-cover"
                         />
                     </div>
