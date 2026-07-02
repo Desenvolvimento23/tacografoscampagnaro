@@ -2,23 +2,23 @@ export const Process = () => {
     const steps = [
         {
             num: "01",
-            title: "Agendamento",
-            desc: "Fale conosco pelo WhatsApp (54 3232-7422) e prepare a documentação."
+            title: "Consulte a placa e gere a GRU",
+            desc: "Verifique a placa no site do INMETRO, preencha os dados e gere a GRU para realizar o pagamento."
         },
         {
             num: "02",
-            title: "Ensaio e Teste",
-            desc: "Testes rigorosos em pista ou dinamômetro para checar precisão."
+            title: "Aguarde e agende",
+            desc: "Após a compensação do pagamento, que pode levar até 24 horas, agende a aferição pelo WhatsApp da Campagnaro Truck Center."
         },
         {
             num: "03",
-            title: "Selagem",
-            desc: "Se aprovado, o equipamento é selado e lacrado conforme normas."
+            title: "Aferição e lacre",
+            desc: "No dia agendado, realizamos a verificação, a aferição e o lacre do tacógrafo conforme as normas."
         },
         {
             num: "04",
-            title: "Certificado",
-            desc: "Emissão do Certificado de Verificação válido por 2 anos."
+            title: "Resultado disponível",
+            desc: "O resultado fica disponível no site Cronotacógrafo e, após a aprovação, é válido por dois anos."
         }
     ]
 

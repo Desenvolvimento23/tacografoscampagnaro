@@ -1,59 +1,50 @@
-# Campagnaro Truck Center - Landing Page
+# Campagnaro Truck Center
 
-Landing Page moderna para a **Campagnaro Truck Center**, desenvolvida com **React**, **TypeScript**, **Tailwind CSS** e **Vite**, seguindo as diretrizes de arquitetura do projeto (Cursor Rules).
+Site institucional da Campagnaro Truck Center para divulgação do serviço de aferição de tacógrafos em Vacaria/RS.
 
-## 🚀 Tecnologias
+**Site publicado:** https://desenvolvimento23.github.io/tacografoscampagnaro/
 
-- **React 18**: Biblioteca UI.
-- **TypeScript**: Tipagem estática e segurança.
-- **Vite**: Build tool rápida.
-- **Tailwind CSS**: Estilização utility-first com configuração de tema personalizado.
-- **Lucide React**: Ícones modernos e leves.
+## Funcionalidades
 
-## 📦 Como Rodar o Projeto
+- Explicação do processo de aferição e geração da GRU
+- Vídeo otimizado em MP4
+- Galeria automática com fotos da estrutura
+- Mapa e informações de localização
+- Horários, contatos e redes sociais
+- Botões de atendimento pelo WhatsApp
+- Perguntas frequentes com dados estruturados para SEO
+- Layout responsivo para celular e desktop
 
-Este projeto requer **Node.js** (v18+) instalado.
+## Tecnologias
 
-1.  **Clone o repositório:**
-    ```bash
-    git clone https://github.com/Desenvolvimento23/tacografoscampagnaro.git
-    cd tacografoscampagnaro
-    ```
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- Lucide React
 
-2.  **Instale as dependências:**
-    ```bash
-    npm install
-    ```
+## Desenvolvimento
 
-3.  **Rode o servidor de desenvolvimento:**
-    ```bash
-    npm run dev
-    ```
-    O projeto estará disponível em `http://localhost:5173`.
+Requer Node.js 18 ou superior.
 
-4.  **Build para produção:**
-    ```bash
-    npm run build
-    ```
-
-## 🏗 Estrutura de Arquivos
-
-```
-src/
-├── assets/         # Imagens e recursos estáticos
-├── components/     # Componentes React (Header, Hero, etc.)
-├── App.tsx         # Componente principal e layout
-├── main.tsx        # Ponto de entrada
-├── index.css       # Estilos globais e diretivas do Tailwind
-└── ...config files # Configurações (Vite, Tailwind, TS)
+```bash
+npm install
+npm run dev
 ```
 
-## 🎨 Design System
+Build de produção:
 
-As cores foram configuradas no `tailwind.config.js`:
-- **Primary**: `#003366` (Azul Escuro)
-- **Secondary**: `#00509e` (Azul Médio)
-- **Accent**: `#25d366` (Verde WhatsApp)
+```bash
+npm run build
+```
 
----
-Desenvolvido por Antigravity.
+## Identidade visual
+
+- Vermelho: `#b12324`
+- Preto: `#000000`
+- Branco: `#ffffff`
+- Verde: utilizado apenas nas ações do WhatsApp
+
+## Publicação
+
+O workflow em `.github/workflows/deploy.yml` executa o build e publica a pasta `dist` na branch `gh-pages` após cada push para `main`.

@@ -18,7 +18,6 @@ export const Header = () => {
 
                 <nav className="flex items-center gap-2 sm:gap-3 lg:gap-8">
                     <ul className="hidden md:flex items-center gap-5 lg:gap-7 font-medium text-secondary text-xs lg:text-sm">
-                        <li><a href="#obrigatoriedade" className="hover:text-primary transition-colors">Obrigatoriedade</a></li>
                         <li><a href="#como-funciona" className="hover:text-primary transition-colors">Como Funciona</a></li>
                         <li><a href="#contato" className="hover:text-primary transition-colors">Contato</a></li>
                     </ul>
@@ -47,7 +46,6 @@ export const Header = () => {
             {isMenuOpen && (
                 <nav className="md:hidden bg-white border-t border-black/10 px-4 py-3">
                     <ul className="max-w-6xl mx-auto flex items-center justify-center gap-5 text-xs font-semibold text-secondary">
-                        <li><a href="#obrigatoriedade" onClick={() => setIsMenuOpen(false)}>Obrigatoriedade</a></li>
                         <li><a href="#como-funciona" onClick={() => setIsMenuOpen(false)}>Como Funciona</a></li>
                         <li><a href="#contato" onClick={() => setIsMenuOpen(false)}>Contato</a></li>
                     </ul>

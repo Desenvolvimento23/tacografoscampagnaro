@@ -1,6 +1,6 @@
 
 
-import campagnaroBg from '../assets/campagnaro.png';
+import campagnaroBg from '../assets/campagnaro.webp';
 import tacografoVideo from '../assets/tacografo.mp4';
 
 export const Hero = () => {
@@ -12,7 +12,9 @@ export const Hero = () => {
                 <img
                     src={campagnaroBg}
                     alt="Oficina de caminhões"
-                    className="w-full h-full object-cover opacity-30 blur-md scale-105"
+                    decoding="async"
+                    fetchPriority="high"
+                    className="w-full h-full object-cover opacity-25 blur-md scale-105"
                 />
             </div>
 
