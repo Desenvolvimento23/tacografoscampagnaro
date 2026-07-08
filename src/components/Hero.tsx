@@ -1,11 +1,9 @@
-
-
 import campagnaroBg from '../assets/campagnaro.webp';
 import tacografoVideo from '../assets/tacografo.mp4';
 
 export const Hero = () => {
     return (
-        <section className="relative pt-24 pb-12 md:pt-28 md:pb-16 bg-secondary text-white overflow-hidden">
+        <section className="relative pt-20 pb-12 md:pt-24 md:pb-16 bg-secondary text-white overflow-hidden">
             {/* Background Overlay */}
             <div className="absolute inset-0 z-0 bg-secondary">
                 {/* Ideally replace with real image via 'backgroundImage' style */}
@@ -14,13 +12,13 @@ export const Hero = () => {
                     alt="Oficina de caminhões"
                     decoding="async"
                     fetchPriority="high"
-                    className="w-full h-full object-cover opacity-25 blur-md scale-105"
+                    className="w-full h-full object-cover opacity-35 blur-sm scale-105"
                 />
             </div>
 
             <div className="relative z-10 max-w-6xl mx-auto px-4 grid md:grid-cols-[1.05fr_0.95fr] items-center gap-8 lg:gap-12">
                 <div className="flex flex-col items-center text-center md:items-start md:text-left">
-                    <span className="text-primary text-xs font-bold uppercase mb-3">
+                    <span className="text-white/90 text-xs font-bold uppercase mb-3">
                         Posto autorizado pelo INMETRO
                     </span>
                     <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight text-white max-w-2xl">

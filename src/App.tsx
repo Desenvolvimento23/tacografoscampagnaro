@@ -1,7 +1,7 @@
 import { Header } from '@components/Header'
 import { Hero } from '@components/Hero'
 import { Process } from '@components/Process'
-import { Location } from '@components/Location'
+import { Location, StructureGallery } from '@components/Location'
 import { Footer } from '@components/Footer'
 import { FloatingWhatsApp } from '@components/FloatingWhatsApp'
 import { FAQ } from '@components/FAQ'
@@ -13,8 +13,9 @@ function App() {
             <main>
                 <Hero />
                 <Process />
-                <Location />
+                <StructureGallery />
                 <FAQ />
+                <Location />
             </main>
             <Footer />
             <FloatingWhatsApp />

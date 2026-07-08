@@ -33,15 +33,15 @@ const questions = [
 
 export const FAQ = () => {
     return (
-        <section id="faq" className="py-12 md:py-14 bg-white border-t border-black/10">
+        <section id="faq" className="py-12 md:py-14 bg-[#f5f5f5] border-t border-black/10">
             <div className="max-w-4xl mx-auto px-4">
                 <h2 className="text-2xl font-bold text-center text-secondary mb-7 relative pb-3 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-10 after:h-0.5 after:bg-primary">
                     Perguntas Frequentes
                 </h2>
 
-                <div className="border-t border-black/10">
+                <div className="bg-white border border-black/10 rounded-lg px-5 md:px-7 shadow-sm">
                     {questions.map((item) => (
-                        <details key={item.question} className="group border-b border-black/10">
+                        <details key={item.question} className="group border-b border-black/10 last:border-b-0">
                             <summary className="flex items-center justify-between gap-4 py-4 cursor-pointer list-none text-sm font-semibold text-secondary hover:text-primary transition-colors">
                                 <span>{item.question}</span>
                                 <ChevronDown className="w-4 h-4 shrink-0 transition-transform group-open:rotate-180" />
