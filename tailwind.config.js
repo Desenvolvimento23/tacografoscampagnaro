@@ -19,7 +19,7 @@ export default {
                 surface: '#ffffff',
             },
             fontFamily: {
-                sans: ['Inter', 'sans-serif'],
+                sans: ['Montserrat', 'sans-serif', 'system-ui', '-apple-system'],
             },
         },
     },
